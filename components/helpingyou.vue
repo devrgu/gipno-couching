@@ -87,6 +87,7 @@
 <style scoped>
     .tfs-block{
         margin-top: 40px;
+        height: 378px;
     }
     .helpingyou{
         margin-bottom: 160px;

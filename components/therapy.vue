@@ -86,11 +86,11 @@
     }
     .tfs-block-icon{
         display: inline-block;
-        margin-bottom: 40px;
+        margin-bottom: 44px;
     }
     .tfs-text{
         text-align: center;
-        padding: 80px 0 64px 0;
+        padding: 80px 0 56px 0;
     }
     .tfs-title{
         color: #FFFFFF;

@@ -17,7 +17,7 @@
                    <img src="/Polygon%201.svg">
                    </div>
                   <div class="main-buttons mail-button">
-                   <div class="konsultatsia">
+                   <div class="konsultatsia mail-konsultatsia">
                      <p>КОНСУЛЬТАЦИЯ</p>
                    </div>
                    
@@ -58,6 +58,7 @@
            <conque>
                Человеку нужен человек. А чтобы они были действительно счастливы вместе, порой нужна помощь специалиста.
            </conque>
+           <reklama></reklama>
     </div>
    </div>
 </div>
@@ -174,6 +175,9 @@ img {
         position: relative;
         max-width: calc(1440px - (120px * 2))
     }
+    .main-buttons div{
+        cursor: pointer;
+    }
     .mail-button{
         display: flex;
         margin-left: 3.363vw;
@@ -189,8 +193,8 @@ img {
         
         
     }
-    >>>.mail-button div p{
-        color: #326BFF
+    .mail-konsultatsia p{
+        color: #326BFF !important;
     }
     .hapiness{
         margin-bottom: 120px
