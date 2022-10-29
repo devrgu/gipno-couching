@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
     server: {
        port: 3000,
-      host: '0.0.0.0',
+      host: '185.22.67.15',
    },
     axios: {
     baseURL: 'http://192.168.56.1:3000',
