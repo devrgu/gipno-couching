@@ -189,7 +189,7 @@ img {
         
         
     }
-    .mail-button div p{
+    >>>.mail-button div p{
         color: #326BFF
     }
     .hapiness{
