@@ -3,12 +3,15 @@
  <div class="content">
   <div class="main-flex">
    <div class="main-content">
+      <div class="main-text-wrap">
        <div class="main-text">
           <div class="main-title">
-            <p>ГИПНОТЕРАПИЯ НА<br>ПРОФФЕСИОНАЛЬНО -<br>ПОДСОЗНАТЕЛЬНОМ УРОВНЕ</p>
+            <p>ГИПНОТЕРАПИЯ И ЦЕЛИТЕЛЬСТВО<br>НА ПРОФФЕСИОНАЛЬНОМ<br>УРОВНЕ</p>
           </div>
           <div class="main-subtitle">
-            <p>Запишитесь к Серику, на сеанс<br>для финансового, социального успеха!</p>
+            <p>
+            Запишитесь, на сеанс для излечения своих сложных болезней в жизни, как например анкология, гормональные растроиства, разные фобий, боязни.
+            Вы многие годы не понимая ситуацию безуспешно пытаетесь сохранить или создать семью, прилично зарабатывать и быть здоровой. Но это не дало вам ничего кроме разочарования? На консультации Я Вам раскрою настоящую причину, которая забрала у вас годы радости и наслаждений. Это причина инфовируса в голове убеждения программы которая уничтожает человеческую жизнь и его потомков. Насколько ВЫ готовы его убрать?    </p>
           </div>
        </div>
        <div class="main-buttons">
@@ -19,6 +22,7 @@
                <p>КОНСУЛЬТАЦИЯ</p>
            </div>
        </div>
+    </div>
    </div>
    <div class="main-img">
    <img src="/main-img.jpg">
@@ -32,7 +36,7 @@
        <div class="bonuses">
          <div class="bonus-1 bonus-"><img src="/galochka.svg"><p>Дополнительная проработка</p></div>
          <div class="bonus-2 bonus-"><img src="/galochka.svg"><p>Бесплатная консультация</p></div>
-         <div class="bonus-3 bonus-"><img src="/galochka.svg"><p>Скидки до 45%</p></div>
+         <div class="bonus-3 bonus-"><img src="/galochka.svg"><p>Дополнительные советы от эксперта</p></div>
        </div>
    </div>
   </div>
@@ -76,15 +80,16 @@
 </script>
 <style>
 .main{
-        max-height: calc(908px - 80px);
+        height: 50%;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+            position: relative;
     }
     .main-flex{
         display: flex;
-        justify-content: space-between;
     }
     .main-text{
-        margin: 10.417vw 0 0 0;
+        margin: 8.417vw 0 0 0;
     }
     
     .main-title p{
@@ -92,9 +97,12 @@
         font-size: 40px;
         font-weight: bold;
     }
+    .main-subtitle{
+        max-width: 680px;
+    }
     .main-subtitle p{
         color: #A7A7A7;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 400;
         margin: 8px 0 32px;
     }
@@ -108,8 +116,8 @@
     }
     .main-buttons div{
         margin: 8px;
-        width: 240px;
-        height: 60px;
+        width: 12.612vw;
+        height: 3.353vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -144,14 +152,14 @@
     }
     .bottom-gradient{
         max-width: 1440px;
-        height: 260px;
+        height: 220px;
         position: relative;
         background: linear-gradient(5.5deg, #070A11 37.9%, rgba(7, 10, 17, 0) 90.42%);
         z-index: -1;
     }
     .bonus{
         position: absolute;
-        bottom: 16px;
+        bottom: 16px
     }
     .bonus-title{
         font-size: 18px;
@@ -184,13 +192,13 @@
     }
     @media (max-width: 1600px) {
         .main-flex{
-            margin-left: 48px;
+            margin-left: 24px;
         }
         .main-title p{
             font-size: 36px;
         }
         .main-subtitle p{
-            font-size: 22px;
+            font-size: 17px;
         }
         .main-buttons div p{
           font-size: 17px;
@@ -203,8 +211,7 @@
             right: -8%;
         }
         .bonus{
-            margin-left: 48px;
-            margin-bottom: 64px;
+            margin-left: 24px;
         }
         
         
@@ -226,7 +233,7 @@
             font-size: 32px;
         }
         .main-subtitle p{
-            font-size: 20px;
+            font-size: 16px;
         }
         .main-buttons div p{
           font-size: 16px;
@@ -234,9 +241,7 @@
         .main-img{
             right: -8%;
         }
-        .bonus{
-            margin-bottom: 80px;
-        }
+        
         
         
         
@@ -247,7 +252,7 @@
             font-size: 14px; 
         }
         nav ul .button{
-            margin-left: 80px;
+            margin-left: 60px;
         }
     }
     
@@ -256,19 +261,8 @@
     
     @media (max-width: 1200px) {
         .main-title p{
-            font-size: 28px;
+            font-size: 30px;
         }
-        .main-subtitle p{
-          font-size: 18px;
-        }
-        .main-buttons div p{
-          font-size: 15px;
-          font-weight: 500
-       }
-        .main-buttons div{
-        width: 205px;
-        height: 51px;
-       }
            
         
         
@@ -281,65 +275,81 @@
             padding: 9px 26px;
             font-size: 14px;
         }
-        nav ul .button{
-            margin-left: 70px;
+        nav{
+            margin-right: 36px;
         }
     }
     
     
     
     
-    @media (max-width: 1000px) {
-        .main-title p{
-          font-size: 24px;
+    @media (max-width: 1024px) {
+        .main-buttons{
+            justify-content: center;
         }
-        .main-subtitle p{
-        font-size: 16px;
+        .main-img{
+             display: block;
+            
         }
-        .main-buttons div p{
-          font-size: 15px;
-       }
-        .main-buttons div{
-          width: 185px;
-          height: 46px;
-       }
+        .main-img::before{
+            background-color: rgba(7, 10, 17, 0.7);
+        }
+        
+        .main-img img{
+            max-width: 100%;
+          }
+        .main-text{
+            text-align: center;
+        }
+        .main-subtitle{
+            margin: 24px 0 24px 0;
+        }
+        .main-content{
+            display: flex;
+            justify-content: center;
+        }
+        .main-flex{
+            margin: 0;
+            justify-content: center;
+        }
+        .bonus{
+            text-align: center;
+        }
         
         
         
         nav div img{
             width: 44px;
         }
-        nav ul .button{
-            margin-left: 60px;
-        }
     }
     
     
     
     
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
         .main-title p{
-          font-size: 20px;
+            font-size: 28px;
         }
-        .main-subtitle p{
-        font-size: 15px;
+        .bonuses{
+        display: block;
+       }
+        nav div img{
+            display: none;
         }
-        .main-buttons div p{
-          font-size: 14px;
-       }
-        .main-buttons div{
-          width: 165px;
-          height: 41px;
-       }
-        
-        
-        
          
         nav li a{
             font-size: 12px
         }
         nav ul .button{
             margin-left: 50px;
+        }
+    }
+    @media (max-width: 560px) {
+        .main-subtitle{
+            max-width: 500px
+        }
+         nav ul .button{
+            margin: 0;
         }
     }
 </style>

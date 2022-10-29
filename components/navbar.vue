@@ -6,7 +6,7 @@
       </div>
       <ul>
         <li><nuxt-link to="/" exact>ГЛАВНОЕ</nuxt-link></li>
-        <li><nuxt-link to="/FAQ">+8 (777) 123 51 76</nuxt-link></li>
+          <li><a href="tel:+87771235176">+8 (777) 123 51 76</a></li>
         <div class="button" @click="dialog = true"><p>ЗАПИСАТЬСЯ</p></div>
       </ul>
     </nav>

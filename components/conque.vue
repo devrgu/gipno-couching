@@ -8,7 +8,7 @@
 </template>
 <style>
     .conque{
-        margin-bottom: 80px;
+        margin-bottom: 160px;
     }
     .conque-content{
         height: 160px;
@@ -21,7 +21,7 @@
     }
     .conque hr{
       position: absolute;
-        max-width: 100%;
+        width: 100%;
         z-index: -5;
     }
     .conque{

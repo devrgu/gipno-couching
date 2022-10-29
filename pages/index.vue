@@ -145,8 +145,8 @@ img {
     .mail-text{
         border-right: 3px solid #070A11;
         height: 120px;
-        white-space: nowrap;
         text-align: center;
+         white-space:nowrap;
         padding-right: 64px;
         position: relative;
     }
@@ -161,6 +161,9 @@ img {
         font-weight: 400;
         color: #FFFFFF;
     }
+    .mail-text{
+        width: 70%;
+    }
     .mail-text img{
         position: absolute;
         right: -16px;
@@ -173,8 +176,8 @@ img {
     }
     .mail-button{
         display: flex;
-        width: 100%;
-        margin-left: 64px;
+        margin-left: 3.363vw;
+        position: relative; 
     }
     .mail-button div{
         border: none;
@@ -208,8 +211,9 @@ img {
     .hapiness-text{
         font-size: 18px;
         color: #FFFFFF;
-        width: 637px;
+        max-width: 637px;
         display: inline-block;
+         white-space:normal;
     }
     .decorate-word{
         font-size: 18px;
@@ -224,6 +228,7 @@ img {
     }
     .hapiness-img{
         float: right;
+        display: inline-block;
     }
     .avtor{
         display: flex;
@@ -249,5 +254,158 @@ img {
         font-size: 16px;
         color: #A7A7A7;
         font-weight: 400;
+    }
+    
+    
+    
+    
+    
+    @media (max-width: 1600px) {
+        .mail-title{
+            font-size: 30px;
+        }
+        .mail-subtitle{
+            font-size: 17px;
+        }
+        
+        
+        
+        
+    }
+    @media (max-width: 1440px) {
+        .mail-title{
+            font-size: 28px;
+        }
+        .mail-subtitle{
+            font-size: 16px;
+        }
+        .content{
+            max-width: 1340px;
+        }
+        
+        
+        
+        
+        
+        
+        nav a{
+            font-size: 14px; 
+        }
+        nav ul .button{
+            margin-left: 80px;
+        }
+    }
+    
+    
+    
+    
+    @media (max-width: 1280px) {
+        .content{
+            max-width: 1180px;
+        }
+        .hapiness{
+            text-align: center;
+        }
+        .hapiness-img{
+            width: 100%;
+            float: none;
+            margin: none;
+            display: flex;
+            justify-content: center;
+        }
+        .hapiness-img img{
+            margin: 0;
+        }
+        .hapiness-text{
+            text-align: center;
+        }
+        .avtor{
+            margin-top: 36px;
+        }
+        .avtor-img{
+            display: inline-block;
+        }
+        .hapiness-conspect div{
+            white-space: normal;
+        }
+        
+        
+           
+        
+        
+        
+    }
+    
+    
+    
+    
+    @media (max-width: 1024px) {
+        .content{
+            max-width: 768px;
+        }
+        .mail{
+            height: 200px
+        }
+        .mail-text{
+            border-right: none;
+            width: 100%;
+            padding-top: 24px;
+            padding-right: 0;
+        }
+        .mail-text img{
+            display: none;
+        }
+        .mail-title{
+            margin-top: 0;
+        }
+        .mail-content{
+            display: block;
+        }
+        .mail-button{
+            display: flex;
+            justify-content: center;
+        }
+        .title{
+            white-space: normal;
+        }
+        .mail-text{
+            padding-top: 28px;
+            margin-bottom: 28px;
+        }
+        
+    }
+    
+    
+    
+    
+    @media (max-width: 768px) {
+        .content{
+            max-width: 568px;
+        }
+        .mail{
+            height: 250px
+        }
+        .mail-title{
+            margin-top: 0;
+            white-space: normal;
+            font-size: 26px;
+        }
+        .mail-text{
+            padding-top: 48px;
+            margin-bottom: 48px;
+        }
+         
+    }
+    @media (max-width: 568px) {
+        .mail{
+            height: 300px
+        }
+        .mail-subtitle{
+            white-space: normal;
+        }
+        .mail-text{
+            padding-top: 56px;
+            margin-bottom: 108px;
+        }
     }
 </style>

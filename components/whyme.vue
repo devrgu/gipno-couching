@@ -65,13 +65,14 @@
     }
     .whyme-text{
         overflow: hidden;
+        padding-left: 36px;
     }
     .whyme-conspect{
         color: #FFFFFF;
         font-size: 18px;
     }
     .whyme-punkts{
-        margin: 48px;
+        margin: 48px 48px 48px 24px;
     }
     .punkt{
         margin-bottom: 40px;
@@ -91,5 +92,18 @@
         font-size: 24px;
         font-weight: 600;
         line-height: normal;
+    }
+    @media (max-width: 1024px) {
+        .decorate-word{
+            margin-top: 24px;
+        }
+         
+    }
+    @media (max-width: 768px) {
+        
+        .punkt-text{
+        overflow: visible;
+    }
+         
     }
 </style>

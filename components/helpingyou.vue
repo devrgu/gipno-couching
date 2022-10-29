@@ -9,53 +9,53 @@
                            <span>лучшей жизни!</span></p>
                    </div>
                    <div class="subtitle">
-                       <p>В моей программе вы:</p>
+                       <p>В программе лечения вы:</p>
                    </div>
             </div>
       </div>
                    <div class="tfs-content">
                    <div class="tfs-block-1 tfs-block">
                        <div class="tfs-block-title">
-                           <p>Что вы получите после исцеления</p>
+                           <p>Любите и будете<br>любимы</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/iconpobeditel.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Из“бедной” подсознательной программы</p>
+                           <p>Вы снова научитесь любить и с благодарностью принимать любовь близкого человека.</p>
                        </div>
                    </div>
                    <div class="tfs-block-2 tfs-block">
                        <div class="tfs-block-title">
-                           <p>Думайте верно и<br>правильно</p>
+                           <p>Ностальгия вашей<br>близости</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/mislipravilnie.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Это инструмент для концентраций подсознания, с которой можно изменить свои убеждения в лучшую сторону.</p>
+                           <p>Вы вспомните, насколько прекрасной может быть духовная и физическая близость.</p>
                        </div>
                    </div>
                    <div class="tfs-block-3 tfs-block">
                        <div class="tfs-block-title">
-                           <p>Станьте лучшей версией<br>себя</p>
+                           <p>Обретете покой<br>души</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/mozg.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Улучшение продуктивности, активирование спящих частей мозга, образование яркого взгляда на жизнь.</p>
+                           <p>Вы забудете о конфликтах, язвительных замечаниях и взаимной раздраженности</p>
                        </div>
                    </div>
                    <div class="tfs-block-1 tfs-block">
                        <div class="tfs-block-title">
-                           <p>Обновите вашу устаревшую программу подсознания </p>
+                           <p>Все пойдет по<br>плану</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/iconpobeditel.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Изменение “бедной” подсознательной программы, имеющая доминантность в ваших делах и личной жизни.</p>
+                           <p>Вы почувствуете, что все в жизни складывается именно так, как вы всегда мечтали.</p>
                        </div>
                    </div>
                    <div class="tfs-block-2 tfs-block">
@@ -85,6 +85,9 @@
     </div>
 </template>
 <style scoped>
+    .tfs-block{
+        margin-top: 40px;
+    }
     .helpingyou{
         margin-bottom: 160px;
     }
