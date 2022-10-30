@@ -103,7 +103,7 @@ dd {
 
 /* Выставляем основные настройки по-умолчанию для body */
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -295,9 +295,7 @@ img {
         nav a{
             font-size: 14px; 
         }
-        nav ul .button{
-            margin-left: 80px;
-        }
+        
     }
     
     
@@ -383,6 +381,7 @@ img {
     
     
     @media (max-width: 768px) {
+        
         .content{
             max-width: 568px;
         }
@@ -398,6 +397,17 @@ img {
             padding-top: 48px;
             margin-bottom: 48px;
         }
+        .title{
+            white-space: normal;
+        }
+        .title{
+        font-size: 32px;
+    }
+    .title p span{
+        font-size: 28px;
+        
+        
+    }
          
     }
     @media (max-width: 568px) {
@@ -410,6 +420,13 @@ img {
         .mail-text{
             padding-top: 56px;
             margin-bottom: 108px;
+        }
+        .hapiness-conspect{
+            font-size: 16px;
+            
+        }
+        .decorate-word{
+            font-size: 16px;
         }
     }
 </style>

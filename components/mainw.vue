@@ -10,8 +10,13 @@
           </div>
           <div class="main-subtitle">
             <p>
+            <span>
             Запишитесь, на сеанс для излечения своих сложных болезней в жизни, как например анкология, гормональные растроиства, разные фобий, боязни.
-            Вы многие годы не понимая ситуацию безуспешно пытаетесь сохранить или создать семью, прилично зарабатывать и быть здоровой. Но это не дало вам ничего кроме разочарования? На консультации Я Вам раскрою настоящую причину, которая забрала у вас годы радости и наслаждений. Это причина инфовируса в голове убеждения программы которая уничтожает человеческую жизнь и его потомков. Насколько ВЫ готовы его убрать?    </p>
+            </span>
+            <span>
+                Вы многие годы не понимая ситуацию безуспешно пытаетесь сохранить или создать семью, прилично зарабатывать и быть здоровой. Но это не дало вам ничего кроме разочарования?</span>
+                <span>На консультации Я Вам раскрою настоящую причину, которая забрала у вас годы радости и наслаждений. Это причина инфовируса в голове убеждения программы которая уничтожает человеческую жизнь и его потомков. Насколько ВЫ готовы его убрать? </span>   
+                </p>
           </div>
        </div>
        <div class="main-buttons">
@@ -84,6 +89,7 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         overflow: hidden;
             position: relative;
+    word-wrap: break-word
     }
     .main-flex{
         display: flex;
@@ -105,6 +111,10 @@
         font-size: 18px;
         font-weight: 400;
         margin: 8px 0 32px;
+    }
+    .main-subtitle p span{
+        display: inline-block;
+        margin: 8px 0;
     }
     .main-buttons{
         display: flex;
@@ -218,14 +228,12 @@
         
         
         
-        nav{
-            margin-right: 64px;
-        }
+        
         nav li a{
             font-size: 15px
         }
         nav ul .button{
-            margin-left: 90px;
+            
         }
     }
     @media (max-width: 1440px) {
@@ -251,9 +259,7 @@
         nav a{
             font-size: 14px; 
         }
-        nav ul .button{
-            margin-left: 60px;
-        }
+        
     }
     
     
@@ -299,7 +305,7 @@
             max-width: 100%;
           }
         .main-text{
-            text-align: center;
+           margin: 10.417vw 16px 0 16px;
         }
         .main-subtitle{
             margin: 24px 0 24px 0;
@@ -345,8 +351,15 @@
         }
     }
     @media (max-width: 560px) {
+        .main-title p{
+            font-size: 22px;
+        }
         .main-subtitle{
-            max-width: 500px
+            font-size: 15px;
+        }
+        
+        .main-buttons{
+            flex-wrap: wrap;
         }
          nav ul .button{
             margin: 0;

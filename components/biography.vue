@@ -64,6 +64,7 @@
         margin-bottom: 24px;
     }
     @media (max-width: 1370px) {
+        
     }
     
         
@@ -102,14 +103,16 @@
             margin: 0;
             display: flex;
             align-items:flex-start;
+            justify-content: center;
             
     }
         .biography-conspect{
        text-align: center
     }
         .biography-title{
-        margin-top: 36px;
-    }
+          margin-top: 36px;
+            font-size: 32px;
+        }
         .biography-img img{
             position: relative;
             bottom: 25px
@@ -137,6 +140,9 @@
         }
         .biography-img img{
             display: block;
+        }
+        .biography-title{
+            font-size: 28px;
         }
         
     

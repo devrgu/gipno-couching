@@ -127,7 +127,7 @@
     }
     @media (max-width: 568px) {
         .tfs-title{
-            font-size: 30px;
+            font-size: 28px;
         }
     }
 </style>
