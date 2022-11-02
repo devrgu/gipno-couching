@@ -6,7 +6,7 @@ export default {
       host: '0.0.0.0',
    },
     axios: {
-    baseURL: 'https://185.22.67.15:80',
+    baseURL: 'https://185.22.67.15:443',
   },
   head: {
     titleTemplate: '%s - serik.aubakirov',
