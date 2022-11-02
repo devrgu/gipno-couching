@@ -6,7 +6,7 @@ export default {
       host: '0.0.0.0',
    },
     axios: {
-    baseURL: 'http://185.22.67.15:3000/',
+    baseURL: 'http://185.22.67.15:80',
   },
   head: {
     titleTemplate: '%s - serik.aubakirov',
@@ -19,6 +19,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+    
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/logo.png' }
