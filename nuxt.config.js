@@ -6,7 +6,7 @@ export default {
       host: '0.0.0.0',
    },
     axios: {
-    baseURL: 'http://192.168.56.1:3000',
+    baseURL: 'http://serikaubakirov.tk',
   },
   head: {
     titleTemplate: '%s - serik.aubakirov',
@@ -79,7 +79,9 @@ export default {
           success: colors.green.accent3
         }
       }
-    }
+    },
+      treeShake: true,
+    defaultAssets: undefined
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
