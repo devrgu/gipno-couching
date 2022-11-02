@@ -1,21 +1,13 @@
 <template>
   <header class="content">
     <nav>
-     <div class="hamburger-menu" @click="isActive = !isActive">
-       <div class="bar" :class="{animate: isActive}">
-     </div>
-    </div>
       <div>
         <img src="/logo.png">
       </div>
       <ul>
-       <div v-if="isActive" class="list-wrapper">
-       <div class="menu-list">
         <li><nuxt-link to="/" exact>ГЛАВНОЕ</nuxt-link></li>
           <li><a href="tel:+87771235176">+8 (777) 123 51 76</a></li>
-    </div>
-      </div>
-        <div class="button" @click="dialog = true"><p>ЗАПИСАТЬСЯ</p></div>
+             <div class="button" @click="dialog = true"><p>ЗАПИСАТЬСЯ</p></div>
       </ul>
     </nav>
     <v-app>
