@@ -50,15 +50,15 @@ export default {
       '@nuxtjs/axios',
     ['nuxt-mail', {
       message: {
-        to: 'askeraubakirov15@gmail.com',
+        to: 'saubakirov36@gmail.com',
       },
       smtp: {
         service: 'gmail',
         host: 'smtp.gmail.com',
         port: 465,
         auth: {
-          user: 'askeraubakirov15@gmail.com',
-          pass: 'nigr vjas yhjz tksw'
+          user: 'saubakirov36@gmail.com',
+          pass: 'uiir krrj dnad jqzp'
         }
       },
     }],
