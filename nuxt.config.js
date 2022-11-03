@@ -6,7 +6,7 @@ export default {
       host: '0.0.0.0',
    },
     axios: {
-    baseURL: 'https://serikaubakirov.tk/',
+    baseURL: 'http://185.22.67.15',
   },
   head: {
     titleTemplate: '%s - serik.aubakirov',
@@ -59,10 +59,7 @@ export default {
         auth: {
           user: 'askeraubakirov15@gmail.com',
           pass: 'nigr vjas yhjz tksw'
-        },
-          tls: {
-         rejectUnauthorized: false
-         }
+        }
       },
     }],
   ],

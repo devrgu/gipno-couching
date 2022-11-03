@@ -38,7 +38,7 @@
   },
         methods: {
     send() {
-      this.$axios.$post('https://serikaubakirov.tk/mail/send',{
+      this.$axios.$post('/mail/send',{
         from: 'ededededdd',
         subject: 'Contact form message',
         html: `Имя:${this.$refs.name.value},<br>Фамилия:${this.$refs.surname.value}<br>Почта:${this.$refs.email.value}<br>Проблема: ${this.$refs.message.value}`,
