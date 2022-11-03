@@ -59,6 +59,12 @@
                Человеку нужен человек. А чтобы они были действительно счастливы вместе, порой нужна помощь специалиста.
            </conque>
            <reklama></reklama>
+           <div class="certificate content">
+            <div class="title"><p>Дополнительное:</p></div>
+             <div class="certificate-content">
+               <img src="/certificate.jpg">
+            </div>
+           </div>
     </div>
    </div>
 </div>
@@ -428,5 +434,16 @@ img {
         .decorate-word{
             font-size: 16px;
         }
+    }
+    .certificate{
+        text-align: center;
+        margin-top: 88px;
+    }
+    .certificate .title{
+        margin-bottom: 56px
+    }
+    .certificate-content{
+        display: flex;
+        justify-content: center;
     }
 </style>
