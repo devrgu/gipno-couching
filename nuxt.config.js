@@ -60,6 +60,9 @@ export default {
           user: 'askeraubakirov15@gmail.com',
           pass: 'nigr vjas yhjz tksw'
         },
+          tls: {
+         rejectUnauthorized: false
+         }
       },
     }],
   ],
