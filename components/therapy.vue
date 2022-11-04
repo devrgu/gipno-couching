@@ -127,7 +127,15 @@
     }
     @media (max-width: 568px) {
         .tfs-title{
-            font-size: 28px;
+            font-size: 25px;
         }
+    }
+        @media (max-width: 415px) {
+        .tfs-title{
+            font-size: 21px;
+        }
+        .tfs-subtitle{
+          font-size: 17px;
+    }
     }
 </style>

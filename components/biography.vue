@@ -107,8 +107,8 @@
             
     }
         .biography-conspect{
-       text-align: center
-    }
+           text-align: center
+          }
         .biography-title{
           margin-top: 36px;
             font-size: 32px;
@@ -144,7 +144,38 @@
         .biography-title{
             font-size: 28px;
         }
+        .biography-content{
+            margin: 0;
+        }
+        .biography-conspect{
+            margin: 0 16px 0 16px;
+        }
         
+    
+    }
+    @media (max-width: 415px) {
+        .biography-conspect{
+           font-size: 16px;
+          }
+        .biography-title{
+            font-size: 24px;
+        }
+    }
+         @media (max-width: 363px) {
+        .biography-title{
+            font-size: 22px;
+        }
+        .biography-conspect{
+          font-size: 14px;
+          }
+              @media (max-width: 319px) {
+        .biography-title{
+            font-size: 20px;
+        }
+        .biography-conspect{
+          font-size: 14px;
+          }
+     }
     
     }
 </style>

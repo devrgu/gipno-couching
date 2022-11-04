@@ -1,12 +1,20 @@
 <template>
   <header class="content">
     <nav>
+     <div class="hamburger-menu" @click="isActive = !isActive">
+       <div class="bar" :class="{animate: isActive}">
+     </div>
+    </div>
       <div>
         <img src="/logo.png">
       </div>
       <ul>
+       <div class="nav-list" v-if="isActive">
+       <div class="nav-list-content">
         <li><nuxt-link to="/" exact>ГЛАВНОЕ</nuxt-link></li>
           <li><a href="tel:+87771235176">+8 (777) 123 51 76</a></li>
+        </div>
+       </div>
              <div class="button" @click="dialog = true"><p>ЗАПИСАТЬСЯ</p></div>
       </ul>
     </nav>
@@ -46,7 +54,17 @@ export default {
       zapisatsa,
       
   },
+    mounted() {
+    this.handleView();
+    window.addEventListener("resize", this.handleView);
+    console.log(this.pageView);
+  },
     methods:{
+         handleView() {
+      window.innerWidth <= 768
+        ? (this.isActive = false)
+        : (this.isActive = true);
+    },
     Close () {
       this.dialog = false
     },
@@ -65,6 +83,9 @@ export default {
     .content{
       max-width: calc(1440px - 176px);
       margin: 0 auto;
+    }
+    .hamburger-menu{
+        display: none;
     }
     nav li a:focus:after, 
     nav li a:hover,
@@ -154,8 +175,93 @@ export default {
         color: #326BFF
     }
     
-    
-    
+    @media (max-width: 768px) {
+        .button{
+            margin-left: 0;
+        }
+        .hamburger-menu {
+        display: block;
+        margin: 0 0 0 24px;
+        width: 50px;
+        height: 54px;
+        cursor: pointer;
+}
+    .nav-list{
+        position: absolute;
+        left: 0;
+        top: 80px;
+        background-color: #1D1919;
+        width: 250px;
+        height: 70vh;
+        z-index: 10;
+    }
+    .nav-list-content li{
+        margin: 0;
+        display: block;
+        text-align: center;
+    }
+    .nav-list-content li a{
+        font-size: 16px;
+        padding: 24px 0;
+        display: block;
+        border-bottom: 1px solid #A7A7A7;
+    }
+        li a:after{
+            height: 0px;
+        }
+        nav li a.nuxt-link-active,
+        nav li a.nuxt-link-exact-active:after{
+          background-color: blue;
+          cursor: pointer;
+        }
+.bar,
+.bar:after,
+.bar:before {
+  width: 45px;
+  height: 4.5px;
+}
+
+.bar {
+  position: relative;
+  transform: translateY(25px);
+  background: white;
+  transition: all 0ms 300ms;
+}
+.bar.animate {
+  background: rgba(255, 255, 255, 0);
+}
+
+.bar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  background: white;
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15px;
+  background: white;
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate:after {
+  top: 0;
+  transform: rotate(45deg);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate:before {
+  bottom: 0;
+  transform: rotate(-45deg);
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+         
+    }
     
    
     
