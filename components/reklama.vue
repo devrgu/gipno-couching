@@ -68,8 +68,11 @@
         }
         .block-video{
           margin: 24px 0 24px 0;
+          display: flex;
+         height: 204px;
+         align-items: center
+        }
         
-    }
         
         
          

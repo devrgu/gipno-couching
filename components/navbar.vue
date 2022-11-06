@@ -41,6 +41,7 @@
   </header>
 </template>
 <script>
+import { mapGetters } from 'vuex'
 import zapisatsa from '~/components/zapisatsa.vue'
 export default {
   data () {
@@ -54,16 +55,25 @@ export default {
       zapisatsa,
       
   },
+      computed: {
+          ...mapGetters ({
+           dialogx: 'dialog/getdialog',
+    })
+  },
     mounted() {
     this.handleView();
     window.addEventListener("resize", this.handleView);
-    console.log(this.pageView);
+    console.log(this.dialogx)
   },
     methods:{
          handleView() {
       window.innerWidth <= 768
         ? (this.isActive = false)
         : (this.isActive = true);
+    },
+    dialogTrue(){
+        this.$store.commit('dialog/dialogMutation', true);
+       
     },
     Close () {
       this.dialog = false

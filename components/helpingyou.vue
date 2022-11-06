@@ -19,7 +19,7 @@
                            <p>Любите и будете<br>любимы</p>
                        </div>
                        <div class="tfs-block-icon">
-                           <img src="/iconpobeditel.svg">
+                           <img src="/like.svg">
                        </div>
                        <div class="tfs-block-text">
                            <p>Вы снова научитесь любить и с благодарностью принимать любовь близкого человека.</p>
@@ -27,13 +27,13 @@
                    </div>
                    <div class="tfs-block-2 tfs-block">
                        <div class="tfs-block-title">
-                           <p>Ностальгия вашей<br>близости</p>
+                           <p>Возврат обретения<br>новой жизни</p>
                        </div>
                        <div class="tfs-block-icon">
-                           <img src="/mislipravilnie.svg">
+                           <img src="/new-life.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Вы вспомните, насколько прекрасной может быть духовная и физическая близость.</p>
+                           <p>У вас снова загорится желание жить, вы будете полны амбиций.</p>
                        </div>
                    </div>
                    <div class="tfs-block-3 tfs-block">
@@ -41,7 +41,7 @@
                            <p>Обретете покой<br>души</p>
                        </div>
                        <div class="tfs-block-icon">
-                           <img src="/mozg.svg">
+                           <img src="/lotos.svg">
                        </div>
                        <div class="tfs-block-text">
                            <p>Вы забудете о конфликтах, язвительных замечаниях и взаимной раздраженности</p>
@@ -49,10 +49,10 @@
                    </div>
                    <div class="tfs-block-1 tfs-block">
                        <div class="tfs-block-title">
-                           <p>Все пойдет по<br>плану</p>
+                           <p>Все пойдет по<br>плану процветания</p>
                        </div>
                        <div class="tfs-block-icon">
-                           <img src="/iconpobeditel.svg">
+                           <img src="/plan.svg">
                        </div>
                        <div class="tfs-block-text">
                            <p>Вы почувствуете, что все в жизни складывается именно так, как вы всегда мечтали.</p>
@@ -71,13 +71,13 @@
                    </div>
                    <div class="tfs-block-3 tfs-block">
                        <div class="tfs-block-title">
-                           <p>Станьте лучшей версией<br>себя</p>
+                           <p>Станьте лучшей версией<br>себя в пути к счастью</p>
                        </div>
                        <div class="tfs-block-icon">
-                           <img src="/mozg.svg">
+                           <img src="/iconpobeditel.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Улучшение продуктивности, активирование спящих частей мозга, образование яркого взгляда на жизнь.</p>
+                           <p>В конечном итоге вы осознаете, что вы способны на большее.</p>
                        </div>
                    </div>
                </div>
@@ -88,6 +88,9 @@
     .tfs-block{
         margin-top: 40px;
         height: 378px;
+    }
+    .tfs-block-text{
+        padding: 0 12px;
     }
     .helpingyou{
         margin-bottom: 160px;

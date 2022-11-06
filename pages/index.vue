@@ -17,7 +17,7 @@
                    <img src="/Polygon%201.svg">
                    </div>
                   <div class="main-buttons mail-button">
-                   <div class="konsultatsia mail-konsultatsia">
+                   <div class="konsultatsia mail-konsultatsia" @click="dialog = true">
                      <p>КОНСУЛЬТАЦИЯ</p>
                    </div>
                    
@@ -62,17 +62,45 @@
            <div class="certificate content">
             <div class="title"><p>Дополнительное:</p></div>
              <div class="certificate-content">
+              <div class="backgr-biog">
+                  <img src="/backgr-biography.jpg">
+              </div>
                <img src="/certificate.jpg">
             </div>
            </div>
+           <v-app>
+      <v-dialog v-model="dialog" width="600">
+        <v-card height="800">
+          <div class="window">
+            <div class="window-content">
+               <div class="window-title">
+                       <p>Оставьте заявку для<br>
+                           <span>Обратной связи</span></p>
+                   </div>
+                   <div class="window-forms">
+                <keep-alive>
+                <zapisatsa/>
+
+                </keep-alive>
+              </div>
+            </div>
+          </div>
+        </v-card>
+      </v-dialog>
+    </v-app>
     </div>
    </div>
 </div>
 </template>
 <script>
   export default{
-      name: 'IndexPage'
+      data () {
+    return {
+        dialog: false,
+    }
   }
+  }
+    
 </script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
@@ -265,6 +293,16 @@ img {
         color: #A7A7A7;
         font-weight: 400;
     }
+     .backgr-biog{
+        z-index: -2;
+         height: 600px;
+         width: 400px;
+         overflow: hidden;
+    }
+    .backgr-biog img{
+        width: 540px;
+        height: 700px;
+    }
     
     
     
@@ -406,9 +444,6 @@ img {
         .title{
             white-space: normal;
         }
-        .title{
-        font-size: 32px;
-        }
         .title p span{
            font-size: 28px;
         
@@ -425,8 +460,9 @@ img {
             white-space: normal;
         }
         .mail-text{
-            padding-top: 40px;
+            padding-top: 40px ;
             margin-bottom: 108px;
+            padding: 40px 8px 0 8px;
         }
         .hapiness-conspect{
             font-size: 16px;
@@ -449,6 +485,9 @@ img {
         }
          .mail-title{
             font-size: 24px;
+        }
+        .mail{
+            height: 330px
         }
     }
     .certificate{

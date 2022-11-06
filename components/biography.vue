@@ -54,6 +54,8 @@
         height: 600px;
         display: flex;
         flex-shrink: 0;
+        justify-content: center;
+        position: relative;
     }
     .biography-img img{
         max-width: none;
@@ -113,12 +115,17 @@
         .biography-img{
             max-width: 100%;
             height: 250px;
-            overflow: hidden;
             margin: 0;
             align-items:flex-start;
             justify-content: center;
             
-    }
+        }
+        .biography-img img{
+            height: 850px;
+            position: relative;
+            bottom: 203px;
+        }
+        
         .biography-conspect{
            text-align: center
           }
@@ -126,12 +133,6 @@
           margin-top: 36px;
             font-size: 32px;
         }
-        .biography-img img{
-            position: relative;
-            bottom: 316px;
-            left: 32px;
-        }
-        
         .biography-content{
         flex-wrap: wrap;
             justify-content: center;
@@ -164,10 +165,6 @@
         .biography-conspect{
             margin: 0 16px 0 16px;
         }
-        .biography-img img{
-            left: 92px;
-        }
-        
     
     }
     @media (max-width: 415px) {
