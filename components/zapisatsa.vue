@@ -56,6 +56,11 @@
         display: flex;
         justify-content: center;
     }
+    .block{
+        padding:0 24px;
+        display: flex;
+        justify-content: center;
+    }
     .block input{
         width: 350px;
         height: 48px;
@@ -100,5 +105,32 @@
     .zapisatsa p{
         margin: 0;
         line-height: normal
+    }
+
+    
+    
+    
+    @media (max-width: 768px) {
+        
+         
+    }
+    @media (max-width: 560px) {
+        .main-title p{
+            font-size: 22px;
+        }
+        
+        .main-buttons{
+            flex-wrap: wrap;
+        }
+        .block input{
+        width: 300px;
+        height: 48px;
+        margin-bottom: 24px;
+        padding-left: 12px;
+        font-size: 18px;
+     }
+        .block textarea{
+          width: 300px;
+    }
     }
 </style>

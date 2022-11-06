@@ -2,9 +2,7 @@
 <div class="whyme">
                <div class="whyme-content content">
                  <div class="whyme-img">
-                      <div>
                        <img src="/photo_beach.jpg">
-    </div>
                    </div>
                   <div class="whyme-text">
                       <div class="decorate-word"><p>#Я такой же как вы</p></div>
@@ -52,9 +50,19 @@
     .whyme{
         margin-bottom: 128px;
     }
+    .whyme-content{
+        display: flex
+    }
     .whyme-img{
-        float: left;
-        display: inline;
+       flex-shrink: 1;
+       height: 585px;
+       max-width: 100%;
+    }
+    .whyme-img img{
+        width: 100%;
+      height: 100%;
+       object-fit: cover;
+     object-position: 0 0;
     }
     .title{
         margin: 0 0 36px 0;
@@ -65,7 +73,8 @@
     }
     .whyme-text{
         overflow: hidden;
-        padding-left: 36px;
+        padding-left: 32px;
+        flex-shrink: 3
     }
     .whyme-conspect{
         color: #FFFFFF;
@@ -93,14 +102,33 @@
         font-weight: 600;
         line-height: normal;
     }
+    @media (max-width: 1480px) {
+        .title{
+            white-space: normal;
+        }
+        .punkt-text{
+           overflow: visible;
+        }
+        }
     @media (max-width: 1024px) {
         .decorate-word{
             margin-top: 24px;
         }
+        .whyme-content{
+          display: block
+        }
+        .whyme-img{
+            height: auto;
+        }
          
     }
     @media (max-width: 768px) {
-        
+        .whyme-conspect{
+          margin-right:16px;
+         }
+        .whyme-punkts{
+           margin: 48px 0px 0px 18px;
+        }
         .punkt-text{
         overflow: visible;
     }

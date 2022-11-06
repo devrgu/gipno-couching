@@ -220,7 +220,7 @@ img {
     }
     .hapiness-text{
         font-size: 18px;
-        color: #FFFFFF;
+        color: #d1d1d1;
         max-width: 637px;
         display: inline-block;
          white-space:normal;
@@ -408,12 +408,12 @@ img {
         }
         .title{
         font-size: 32px;
-    }
-    .title p span{
-        font-size: 28px;
+        }
+        .title p span{
+           font-size: 28px;
         
         
-    }
+       }
          
     }
     @media (max-width: 568px) {
@@ -421,10 +421,11 @@ img {
             height: 300px
         }
         .mail-subtitle{
+            margin-top: 12px;
             white-space: normal;
         }
         .mail-text{
-            padding-top: 56px;
+            padding-top: 40px;
             margin-bottom: 108px;
         }
         .hapiness-conspect{
@@ -433,6 +434,21 @@ img {
         }
         .decorate-word{
             font-size: 16px;
+        }
+    }
+    @media (max-width: 360px) {
+        .title{
+        font-size: 25px;
+        }
+        .title p span{
+           font-size: 20px;
+        }
+        .hapiness-conspect{
+            font-size: 15px;
+            
+        }
+         .mail-title{
+            font-size: 24px;
         }
     }
     .certificate{

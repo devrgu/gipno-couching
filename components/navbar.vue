@@ -179,6 +179,15 @@ export default {
         .button{
             margin-left: 0;
         }
+    @media (max-width: 560px) {
+        .window-title{
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+        }
+        
         .hamburger-menu {
         display: block;
         margin: 0 0 0 24px;
@@ -211,7 +220,7 @@ export default {
         }
         nav li a.nuxt-link-active,
         nav li a.nuxt-link-exact-active:after{
-          background-color: blue;
+          background-color: #326BFF;
           cursor: pointer;
         }
 .bar,

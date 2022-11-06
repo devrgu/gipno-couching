@@ -2,7 +2,7 @@
     <div class="biography content">
               <div class="biography-content">
                 <div class="biography-img">
-                      <img src="/serikphoto.jpg">
+                      <img src="/photo-serik.jpg">
                   </div>
                  <div class="biography-text">
                   <div class="biography-title">
@@ -24,11 +24,12 @@
 </template>
 <style>
     .biography{
-        color: #FFFFFF;
+        color: #d1d1d1;
     }
     .biography-content{
         display: flex;
         margin: 0 24px 0 24px;
+        justify-content: center;
     }
     .biography-line hr{
         width: 100px;
@@ -50,9 +51,13 @@
     }
     .biography-img{
         margin-right: 64px;
+        height: 600px;
+        display: flex;
+        flex-shrink: 0;
     }
     .biography-img img{
         max-width: none;
+        position: relative;
     }
     .biography-conspect{
         max-width: 746px;
@@ -63,8 +68,17 @@
         display: block;
         margin-bottom: 24px;
     }
-    @media (max-width: 1370px) {
-        
+    @media (max-width: 1440px) {
+        .biography-img{
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            margin-right: 48px;
+        }
+        .biography-img img{
+            position: relative;
+            
+        }
     }
     
         
@@ -101,7 +115,6 @@
             height: 250px;
             overflow: hidden;
             margin: 0;
-            display: flex;
             align-items:flex-start;
             justify-content: center;
             
@@ -115,7 +128,8 @@
         }
         .biography-img img{
             position: relative;
-            bottom: 25px
+            bottom: 316px;
+            left: 32px;
         }
         
         .biography-content{
@@ -128,7 +142,7 @@
     
     
     
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         .mail-title{
             font-size: 21px;
         }
@@ -149,6 +163,9 @@
         }
         .biography-conspect{
             margin: 0 16px 0 16px;
+        }
+        .biography-img img{
+            left: 92px;
         }
         
     

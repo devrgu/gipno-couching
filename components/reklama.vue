@@ -37,8 +37,8 @@
         text-align: center;
         overflow: hidden;
     }
-    .otzivi{
-          
+    .otzivi-content{
+          overflow: hidden;
     }
     .title{
     }
@@ -71,13 +71,14 @@
         
     }
         
-        .title{
-             max-width: 50%;
-        }
+        
          
     }
     @media (max-width: 568px) {
+        .decorate-word{
+          text-align: center;
         
+    }
     }
 
 </style>

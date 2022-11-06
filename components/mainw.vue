@@ -6,7 +6,7 @@
       <div class="main-text-wrap">
        <div class="main-text">
           <div class="main-title">
-            <p>ГИПНОТЕРАПИЯ И ЦЕЛИТЕЛЬСТВО<br>НА ПРОФФЕСИОНАЛЬНОМ<br>УРОВНЕ</p>
+              <p>ГИПНОТЕРАПИЯ И ЦЕЛИТЕЛЬСТВО<br> НА ПРОФФЕСИОНАЛЬНОМ <br> УРОВНЕ</p>
           </div>
           <div class="main-subtitle">
             <p>
@@ -108,7 +108,7 @@
         max-width: 680px;
     }
     .main-subtitle p{
-        color: #A7A7A7;
+        color: #b5b5b5;
         font-size: 18px;
         font-weight: 400;
         margin: 8px 0 32px;
@@ -122,13 +122,13 @@
     }
     .main-buttons div p{
         color: #FFFFFF;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 18px;
     }
     .main-buttons div{
         margin: 8px;
-        width: 12.612vw;
-        height: 3.353vw;
+        width: 240px;
+        height: 60px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -147,9 +147,6 @@
         z-index: -5;
         
         
-    }
-    .main-img img{
-        max-width: 70vw;
     }
     .main-img::before{
         content: "";
@@ -241,26 +238,26 @@
           font-size: 16px;
        }
         .main-img{
-            right: -8%;
+            right: -16%;
         }
-        
-        
-        
-        
-        
-
-        
+        .main-subtitle{
+          max-width: 600px;
+       }
     }
     
     
     
     
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
         .main-title p{
             font-size: 30px;
         }
-           
-        
+        .main-img{
+            right: -24%;
+        }
+        .main-subtitle{
+          max-width: 560px;
+       }
         
     
         nav .button p{
@@ -274,21 +271,40 @@
     
     
     
+    @media (max-width: 1140px) {
+        .main-img{
+            right: -30%;
+        }
+    }
     
-    @media (max-width: 1024px) {
+    
+    
+    
+    @media (max-width: 1024px) { 
         .main-buttons{
             justify-content: center;
         }
         .main-img{
-             display: block;
-            
-        }
+             display: flex;
+             justify-content: center;
+             top: 55%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             right: -28%;
+       }
         .main-img::before{
             background-color: rgba(7, 10, 17, 0.7);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100vw;
         }
         
         .main-img img{
-            max-width: 100%;
+            max-width: none;
           }
         .main-text{
            margin: 10.417vw 16px 0 16px;
@@ -307,6 +323,15 @@
         .bonus{
             text-align: center;
         }
+        .main-buttons div{
+        margin-top: 16px;
+        width: 240px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .
         
         
         
@@ -321,6 +346,9 @@
     @media (max-width: 768px) {
         .main-title p{
             font-size: 28px;
+        }
+        .main-title p br{
+            display: none;
         }
         .bonuses{
         display: block;
