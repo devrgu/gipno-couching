@@ -490,7 +490,7 @@ img {
             
         }
          .mail-title{
-            font-size: 21px;
+            font-size: 21px !important;
         }
         .mail-subtitle{
             font-size: 16px;
