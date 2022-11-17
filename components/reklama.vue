@@ -83,5 +83,14 @@
         
     }
     }
+    @media (max-width: 390px) {
+        iframe {
+         transform: scale(0.55); 
+        }
+        .block-video{
+            height: 173px;
+        }
+        
+    }
 
 </style>

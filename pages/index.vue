@@ -262,7 +262,7 @@ img {
         margin-top: 24px;
     }
     .hapiness-conspect{
-        margin: 40px 0;
+        margin: 40px 12px;
     }
     .hapiness-img{
         float: right;
@@ -461,7 +461,7 @@ img {
         }
         .mail-text{
             padding-top: 40px ;
-            margin-bottom: 108px;
+            margin-bottom: 96px;
             padding: 40px 8px 0 8px;
         }
         .hapiness-conspect{
@@ -471,8 +471,14 @@ img {
         .decorate-word{
             font-size: 16px;
         }
+        .avtor{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px 12px;
+        }
     }
-    @media (max-width: 360px) {
+    @media (max-width: 369px) {
         .title{
         font-size: 25px;
         }
@@ -484,11 +490,14 @@ img {
             
         }
          .mail-title{
-            font-size: 24px;
+            font-size: 21px;
         }
-        .mail{
-            height: 330px
+        .mail-subtitle{
+            font-size: 16px;
         }
+    }
+    @media (max-width: 376px) {
+        
     }
     .certificate{
         text-align: center;
