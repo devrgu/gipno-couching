@@ -71,13 +71,13 @@
                    </div>
                    <div class="tfs-block-3 tfs-block">
                        <div class="tfs-block-title">
-                           <p>Станьте лучшей версией<br>себя в пути к счастью</p>
+                           <p>Будьте тем кем<br>вы хотели быть</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/iconpobeditel.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>В конечном итоге вы осознаете, что вы способны на большее.</p>
+                           <p>Для нас это обычное дело, но люди называют это чудом</p>
                        </div>
                    </div>
                </div>

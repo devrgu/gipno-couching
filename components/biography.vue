@@ -144,12 +144,6 @@
     
     
     @media (max-width: 767px) {
-        .mail-title{
-            font-size: 21px;
-        }
-        .mail-subtitle{
-            font-size: 13px;
-        }
         .title{
             white-space: normal;
         }
