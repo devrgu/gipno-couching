@@ -9,22 +9,22 @@
     </div>
     <div class="video-content">
         <div class="1-block-video block-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OAZcjdgQCv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/OAZcjdgQCv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="2-block-video block-video">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/98ce17-TOJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/98ce17-TOJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="1-block-video block-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TJGvNQviIsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/TJGvNQviIsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><p>Загрузкa</p></iframe>
         </div>
         <div class="2-block-video block-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/hwYjwam3LoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/hwYjwam3LoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="1-block-video block-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-iWjUG3xA2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/-iWjUG3xA2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="2-block-video block-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/p1yxLen1Ppc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/p1yxLen1Ppc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     </div>

@@ -57,7 +57,7 @@
         justify-content: center;
     }
     .block{
-        padding:0 24px;
+        margin:0 24px;
         display: flex;
         justify-content: center;
     }
@@ -122,15 +122,18 @@
         .main-buttons{
             flex-wrap: wrap;
         }
+        .block{
+            width: 300px;
+        }
         .block input{
-        width: 300px;
+        max-width: 300px;
         height: 48px;
         margin-bottom: 24px;
         padding-left: 12px;
         font-size: 18px;
-     }
+        }
         .block textarea{
           width: 300px;
-    }
+        }
     }
 </style>

@@ -2,7 +2,7 @@
 <div class="whyme">
                <div class="whyme-content content">
                  <div class="whyme-img">
-                       <img src="/photo_beach.jpg">
+                       <img loading="lazy" src="/photo_beach.avif">
                    </div>
                   <div class="whyme-text">
                       <div class="decorate-word"><p>#Я такой же как вы</p></div>

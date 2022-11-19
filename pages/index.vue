@@ -39,7 +39,7 @@
                    </div>
                     </div>
                    <div class="hapiness-img">
-                       <img src="/hapiness%20img%20block.png">
+                       <img loading="lazy" src="/hapiness%20img%20block.png">
                    </div>
                    <div class="avtor">
                        <div class="avtor-img"></div>
@@ -63,9 +63,9 @@
             <div class="title"><p>Дополнительное:</p></div>
              <div class="certificate-content">
               <div class="backgr-biog">
-                  <img src="/backgr-biography.jpg">
+                  <img loading="lazy" src="/backgr-biography.jpg">
               </div>
-               <img src="/certificate.jpg">
+               <img loading="lazy" src="/certificate.jpg">
             </div>
            </div>
            <v-app>

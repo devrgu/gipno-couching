@@ -11,6 +11,7 @@
            </div>
                <div class="tfs-content">
                    <div class="tfs-block-1 tfs-block tfs-block-therapy">
+                      <div class="front_side">
                        <div class="tfs-block-title">
                            <p>Вырвем корни ваших<br>проблем</p>
                        </div>
@@ -18,21 +19,41 @@
                            <img src="/korni.svg">
                        </div>
                        <div class="tfs-block-text">
+                           <p>В процессе лечения, найдем эмоциональные травмы или же инфовирус...</p>
+                       </div>
+                     </div>
+                     <div class="back_side">
+                       <div class="tfs-block-title">
+                           <p>Вырвем корни ваших<br>проблем</p>
+                       </div>
+                       <div class="tfs-block-text">
                            <p>В процессе лечения, найдем эмоциональные травмы или же инфовирус, который оброс корнем как паразит высасывая жизненную энергию. Эти "убеждения", привели бы вас к самоуничтожению. Мы вместе с вами остановим и вырвем с корнем их, улучшев ваше мировозрение.</p>
                        </div>
+                     </div>
                    </div>
                    <div class="tfs-block-2 tfs-block tfs-block-therapy">
+                      <div class="front_side">
                        <div class="tfs-block-title">
-                           <p>Активизируете подсознаетльное исцеления</p>
+                           <p>Активируется подсознательное исцеление</p>
                        </div>
-                       <div class="tfs-block-icon ">
+                       <div class="tfs-block-icon">
                            <img src="/mozg.svg">
                        </div>
                        <div class="tfs-block-text"> 
+                           <p>У вас включится подсознательный процесс исцеления и регенераций здоровья...</p>
+                       </div>
+                     </div>
+                     <div class="back_side">
+                       <div class="tfs-block-title">
+                           <p>Активизируете подсознательное исцеление</p>
+                       </div>
+                       <div class="tfs-block-text">
                            <p>У вас включится подсознательный процесс исцеления и регенераций здоровья. Вы будете интуитивно чувствовать правильный образ мышления, управления собой, эмоциональные подъемы, взаимодействие с окружающим миром.</p>
                        </div>
+                     </div>
                    </div>
                    <div class="tfs-block-3 tfs-block tfs-block-therapy">
+                      <div class="front_side">
                        <div class="tfs-block-title">
                            <p>У вас будет исцеление<br>тела и разума</p>
                        </div>
@@ -40,8 +61,17 @@
                            <img src="/vosstanov.svg">
                        </div>
                        <div class="tfs-block-text">
+                           <p>Вы будете в процессе "чувствовать" и "видеть", в вашем нынешнем пути, продвижение в делах...</p>
+                       </div>
+                     </div>
+                     <div class="back_side">
+                       <div class="tfs-block-title">
+                           <p>У вас будет исцеление<br>тела и разума</p>
+                       </div>
+                       <div class="tfs-block-text">
                            <p>Вы будете в процессе "чувствовать" и "видеть", в вашем нынешнем пути, продвижение в делах, бизнесе, отношениях, избавитесь от токсичных личностей в окружений.</p>
                        </div>
+                     </div>
                    </div>
                </div>
     </div> 
@@ -58,17 +88,15 @@
         position: absolute;
         width: 100%;
         z-index: -2;
-             left: 0;
-    top: 0;
+        left: 0;
+        top: 0;
     }
     .tfs-block{
-        width: 353px;
-        background-color: #0C0F16;
-        text-align: center;
-        border-radius: 30px;
+        position: relative;
+         width: 353px;
+        height: 378px;
+        perspective: 1000px;
         margin: 0 24px 0 24px;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5)
-        
     }
     .tfs-block-therapy{
         box-sizing:border-box;
@@ -81,7 +109,7 @@
     }
     .tfs-block-text{
         color: #A7A7A7;
-        padding-bottom: 16px;
+        padding: 0 12px 16px 12px;
         
     }
     .tfs-block-icon{
@@ -109,6 +137,27 @@
         margin: 0 auto;
         flex-wrap: wrap;
     }
+    .front_side, .back_side {
+        position: absolute;
+         width: 100%;
+        height: 100%;
+        background-color: #0C0F16;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+      transition: 1s; 
+      backface-visibility: hidden;
+      border-radius: 10px;      
+    }
+    .back_side {
+        background-color: #326BFF;
+      transform: rotateY(180deg);
+    }
+    .back_side div{
+        color: #FFFFFF;
+    }
+    .tfs-block:hover .front_side {transform: rotateY(180deg);}
+    .tfs-block:hover .back_side {transform: rotateY(360deg);}
     @media (max-width: 1024px) {
         .tfs-block{
             margin-top: 36px;

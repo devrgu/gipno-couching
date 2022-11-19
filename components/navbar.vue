@@ -89,7 +89,6 @@ export default {
     
 </script>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
     .content{
       max-width: calc(1440px - 176px);
       margin: 0 auto;
@@ -180,6 +179,7 @@ export default {
         font-weight: 600;
         text-align: center;
         margin-bottom: 56px;
+        word-spacing: normal;
     }
     .window-title span{
         color: #326BFF
