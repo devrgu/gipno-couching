@@ -14,7 +14,8 @@
             </div>
       </div>
                    <div class="tfs-content">
-                   <div class="tfs-block-1 tfs-block">
+                   <div disabled class="tfs-block-1 tfs-block">
+                      <div class="front_side">
                        <div class="tfs-block-title">
                            <p>Любите и будете<br>любимы</p>
                        </div>
@@ -24,8 +25,10 @@
                        <div class="tfs-block-text">
                            <p>Вы снова научитесь любить и с благодарностью принимать любовь близкого человека.</p>
                        </div>
+                    </div>
                    </div>
-                   <div class="tfs-block-2 tfs-block">
+                   <div disabled class="tfs-block-2 tfs-block">
+                      <div class="front_side">
                        <div class="tfs-block-title">
                            <p>Возврат обретения<br>новой жизни</p>
                        </div>
@@ -35,8 +38,10 @@
                        <div class="tfs-block-text">
                            <p>У вас снова загорится желание жить, вы будете полны амбиций.</p>
                        </div>
+                    </div>
                    </div>
-                   <div class="tfs-block-3 tfs-block">
+                   <div disabled class="tfs-block-3 tfs-block">
+                      <div class="front_side">
                        <div class="tfs-block-title">
                            <p>Обретете покой<br>души</p>
                        </div>
@@ -46,8 +51,10 @@
                        <div class="tfs-block-text">
                            <p>Вы забудете о конфликтах, язвительных замечаниях и взаимной раздраженности</p>
                        </div>
+                    </div>  
                    </div>
-                   <div class="tfs-block-1 tfs-block">
+                   <div disabled class="tfs-block-1 tfs-block">
+                      <div class="front_side">
                        <div class="tfs-block-title">
                            <p>Все пойдет по<br>плану процветания</p>
                        </div>
@@ -57,8 +64,10 @@
                        <div class="tfs-block-text">
                            <p>Вы почувствуете, что все в жизни складывается именно так, как вы всегда мечтали.</p>
                        </div>
+                    </div>
                    </div>
-                   <div class="tfs-block-2 tfs-block">
+                   <div disabled class="tfs-block-2 tfs-block">
+                      <div class="front_side">
                        <div class="tfs-block-title">
                            <p>Думайте верно и<br>правильно</p>
                        </div>
@@ -68,8 +77,10 @@
                        <div class="tfs-block-text">
                            <p>Это инструмент для концентраций подсознания, с которой можно изменить свои убеждения в лучшую сторону.</p>
                        </div>
+                      </div>   
                    </div>
-                   <div class="tfs-block-3 tfs-block">
+                   <div disabled class="tfs-block-3 tfs-block">
+                      <div class="front_side">
                        <div class="tfs-block-title">
                            <p>Будьте тем кем<br>вы хотели быть</p>
                        </div>
@@ -79,6 +90,7 @@
                        <div class="tfs-block-text">
                            <p>Для нас это обычное дело, но люди называют это чудом</p>
                        </div>
+                     </div>
                    </div>
                </div>
         </div>
@@ -112,5 +124,8 @@
         font-weight: 400;
         color: #A7A7A7;
         margin-top: 24px;
+    }
+    .front_side{
+        
     }
 </style>

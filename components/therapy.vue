@@ -156,8 +156,8 @@
     .back_side div{
         color: #FFFFFF;
     }
-    .tfs-block:hover .front_side {transform: rotateY(180deg);}
-    .tfs-block:hover .back_side {transform: rotateY(360deg);}
+    .tfs-block:not([disabled]):hover .front_side {transform: rotateY(180deg);}
+    .tfs-block:not([disabled]):hover .back_side {transform: rotateY(360deg);}
     @media (max-width: 1024px) {
         .tfs-block{
             margin-top: 36px;
