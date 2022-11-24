@@ -9,17 +9,17 @@
         <img src="/logo.png">
       </div>
       <ul>
-       <div class="nav-list" v-if="isActive">
+       <div class="nav-list" v-show="isActive">
        <div class="nav-list-content">
         <li><nuxt-link to="/" exact>ГЛАВНОЕ</nuxt-link></li>
           <li><a href="tel:+87771235176">+8 (777) 123 51 76</a></li>
         </div>
        </div>
-             <div class="button" @click="dialog = true"><p>ЗАПИСАТЬСЯ</p></div>
+             <div class="button" @click="dialogTrue"><p>ЗАПИСАТЬСЯ</p></div>
       </ul>
     </nav>
     <v-app>
-      <v-dialog v-model="dialog" width="600">
+      <v-dialog v-model="name" width="600">
         <v-card height="800">
           <div class="window">
             <div class="window-content">
@@ -46,9 +46,8 @@ import zapisatsa from '~/components/zapisatsa.vue'
 export default {
   data () {
     return {
-        dialog: false,
         data:'',
-        isActive: true
+        isActive: undefined,
     }
   },
     components: {
@@ -58,7 +57,16 @@ export default {
       computed: {
           ...mapGetters ({
            dialogx: 'dialog/getdialog',
-    })
+    }),
+          name: {
+           get(){
+             return this.dialogx
+           },
+           set(newValue){
+             this.$store.commit('dialog/dialogMutation', newValue);
+            console.log('newValue')
+           } 
+        }
   },
     mounted() {
     this.handleView();
@@ -76,7 +84,7 @@ export default {
        
     },
     Close () {
-      this.dialog = false
+      this.$store.commit('dialog/dialogMutation', false);
     },
     Changekonsultatsia () {
       this.component = 'zapisatsa'
@@ -174,6 +182,9 @@ export default {
         display: flex;
         justify-content: center;
     }
+    .window-content{
+        overflow: hidden;
+    }
     .window-title{
         font-size: 32px;
         font-weight: 600;
@@ -232,6 +243,19 @@ export default {
         nav li a.nuxt-link-exact-active:after{
           background-color: #326BFF;
           cursor: pointer;
+        }
+        @media (max-width: 370px) {
+            .window-title{
+                font-size: 25px;
+            }
+            .window{
+                margin: 48px 0;
+            }
+        }
+        @media (max-width: 330px) {
+            .window-title{
+                font-size: 22px;
+            }
         }
 .bar,
 .bar:after,

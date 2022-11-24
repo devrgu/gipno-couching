@@ -15,7 +15,7 @@
            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/98ce17-TOJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="1-block-video block-video">
-            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/TJGvNQviIsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><p>Загрузкa</p></iframe>
+            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/TJGvNQviIsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="2-block-video block-video">
             <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/hwYjwam3LoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

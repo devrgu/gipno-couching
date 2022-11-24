@@ -17,13 +17,13 @@
                    <div disabled class="tfs-block-1 tfs-block">
                       <div class="front_side">
                        <div class="tfs-block-title">
-                           <p>Любите и будете<br>любимы</p>
+                           <p>Будьте здоровы и<br>любимы</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/like.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Вы снова научитесь любить и с благодарностью принимать любовь близкого человека.</p>
+                           <p>Вы будете здоровы и с благодарностью принимать любовь близкого человека.</p>
                        </div>
                     </div>
                    </div>

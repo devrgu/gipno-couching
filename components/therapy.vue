@@ -140,7 +140,7 @@
     .front_side, .back_side {
         position: absolute;
          width: 100%;
-        height: 100%;
+        min-height: 100%;
         background-color: #0C0F16;
         text-align: center;
         border-radius: 30px;
@@ -185,6 +185,19 @@
         }
         .tfs-subtitle{
           font-size: 17px;
+        }
+        .tfs-block-title{
+        font-size: 20px;
+        margin: 40px 0 36px 0;
+     }
+       .tfs-block-text{
+           padding: 0 8px 12px 12px;
+        
+    }
+      @media (max-width: 330px) {
+        .tfs-block{
+          height: 389px;
+    }
     }
     }
 </style>

@@ -21,7 +21,7 @@
                 </div>
                        <div class="main-buttons">
                 <div class="zapisatsa" @click.prevent="send"  @click="$emit('someEvent')">
-                <p>ОТПРАВИТЬ</p>
+                <nuxt-link to="/success">ОТПРАВИТЬ</nuxt-link>
                 </div>
                 </div>
 </div>
@@ -56,8 +56,11 @@
         display: flex;
         justify-content: center;
     }
+    .zapis-content{
+        overflow: hidden;
+        padding: 0 24px;
+    }
     .block{
-        margin:0 24px;
         display: flex;
         justify-content: center;
     }
@@ -100,19 +103,19 @@
      .zapisatsa{
         margin: 4px !important;
         align-self: center;
-        cursor: pointer;
     }
-    .zapisatsa p{
+    .zapisatsa a{
         margin: 0;
-        line-height: normal
-    }
-
-    
-    
-    
-    @media (max-width: 768px) {
-        
-         
+        line-height: normal;
+        text-decoration: none;
+        color: #FFFFFF;
+        text-align: -webkit-center;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     @media (max-width: 560px) {
         .main-title p{
@@ -123,17 +126,7 @@
             flex-wrap: wrap;
         }
         .block{
-            width: 300px;
-        }
-        .block input{
-        max-width: 300px;
-        height: 48px;
-        margin-bottom: 24px;
-        padding-left: 12px;
-        font-size: 18px;
-        }
-        .block textarea{
-          width: 300px;
+            max-width: 300px;
         }
     }
 </style>
