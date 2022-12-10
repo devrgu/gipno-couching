@@ -17,13 +17,13 @@
                    <div disabled class="tfs-block-1 tfs-block">
                       <div class="front_side">
                        <div class="tfs-block-title">
-                           <p>Будьте здоровы и<br>любимы</p>
+                           <p>Будете здоровы и<br>любимы</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/like.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Вы будете здоровы и с благодарностью принимать любовь близкого человека.</p>
+                           <p>Вы наконец-то будете здоровы и с благодарностью принимать любовь близкого человека.</p>
                        </div>
                     </div>
                    </div>
@@ -49,7 +49,7 @@
                            <img src="/lotos.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Вы забудете о конфликтах, язвительных замечаниях и взаимной раздраженности</p>
+                           <p>Вы забудете о конфликтах, борьбу за жизнь, вас не будет ничего тревожить.</p>
                        </div>
                     </div>  
                    </div>
@@ -69,26 +69,26 @@
                    <div disabled class="tfs-block-2 tfs-block">
                       <div class="front_side">
                        <div class="tfs-block-title">
-                           <p>Думайте верно и<br>правильно</p>
+                           <p>Будете думать верно и<br>правильно</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/mislipravilnie.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Это инструмент для концентраций подсознания, с которой можно изменить свои убеждения в лучшую сторону.</p>
+                           <p>Ваш выбор привел вас к вашим изначальным проблемам, теперь же все будет иначе.</p>
                        </div>
                       </div>   
                    </div>
                    <div disabled class="tfs-block-3 tfs-block">
                       <div class="front_side">
                        <div class="tfs-block-title">
-                           <p>Будьте тем кем<br>вы хотели быть</p>
+                           <p>Будете тем кем<br>вы хотели быть</p>
                        </div>
                        <div class="tfs-block-icon">
                            <img src="/iconpobeditel.svg">
                        </div>
                        <div class="tfs-block-text">
-                           <p>Для нас это обычное дело, но люди называют это чудом</p>
+                           <p>Для нас это обычное дело, но люди называют это чудом...</p>
                        </div>
                      </div>
                    </div>

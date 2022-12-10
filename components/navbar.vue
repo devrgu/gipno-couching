@@ -37,6 +37,26 @@
           </div>
         </v-card>
       </v-dialog>
+      <v-dialog v-model="success" width="800">
+        <v-card height="400">
+          <div class="window">
+            <div class="window-content">
+               <div class="window-title success-title">
+                       <p>Вы успешно оставили заявку<br>
+                           <span>Ожидайте ответа</span></p>
+                </div>
+                 <div class="description">
+                    <p>Вы готовы изменить свою жизнь, раз и навсегда? Приготовьтесь!</p>
+                </div>
+                <div class="main-buttons">
+                <div class="zapisatsa" @click="success = false">
+                <nuxt-link to="/success">ОТЛИЧНО</nuxt-link>
+                </div>
+                </div>
+            </div>
+          </div>
+        </v-card>
+      </v-dialog>
     </v-app>
   </header>
 </template>
@@ -47,6 +67,7 @@ export default {
   data () {
     return {
         data:'',
+        success: false,
         isActive: undefined,
     }
   },
@@ -85,6 +106,7 @@ export default {
     },
     Close () {
       this.$store.commit('dialog/dialogMutation', false);
+      this.success = true;    
     },
     Changekonsultatsia () {
       this.component = 'zapisatsa'
@@ -191,6 +213,9 @@ export default {
         text-align: center;
         margin-bottom: 56px;
         word-spacing: normal;
+    }
+    .success-title{
+        margin-bottom: 24px;
     }
     .window-title span{
         color: #326BFF
@@ -305,8 +330,10 @@ export default {
 }
          
     }
-    
-   
-    
+</style>
+<style scoped>
+.main-buttons{
+            justify-content: center !important;
+        }
 </style>
 

@@ -1,6 +1,7 @@
 <template>
 <div class="main-page">
   <mainw></mainw>
+  <problem></problem>
   <therapy></therapy>
    <div class="body">
        <div class="body-content">
@@ -65,7 +66,9 @@
               <div class="backgr-biog">
                   <img loading="lazy" src="/backgr-biography.jpg">
               </div>
+              <div class="certificate">
                <img loading="lazy" src="/certificate.jpg">
+            </div>
             </div>
            </div>
     </div>
@@ -289,6 +292,9 @@ img {
         width: 540px;
         height: 700px;
     }
+    .certificate-content{
+        width: 100%;
+    }
     
     
     
@@ -359,6 +365,9 @@ img {
         }
         .hapiness-conspect div{
             white-space: normal;
+        }
+        .backgr-biog{
+            display: none;
         }
         
         
@@ -432,9 +441,10 @@ img {
         }
         .title p span{
            font-size: 28px;
-        
-        
-       }
+        }
+        .certificate{
+            margin-top: 0 !important;
+        }
          
     }
     @media (max-width: 568px) {
@@ -495,5 +505,6 @@ img {
     .certificate-content{
         display: flex;
         justify-content: center;
+        align-items: flex-end;
     }
 </style>

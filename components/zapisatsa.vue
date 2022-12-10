@@ -17,7 +17,7 @@
     </div>
     </div>
     <div class="description">
-                    <p>Нажимая на кнопку "Отправить заявку" Вы соглашаетесь с политикой конфиденциальности <nuxt-link to="/plans">Серика Аубакирова.</nuxt-link></p>
+                    <p>Нажимая на кнопку "Отправить заявку" Вы соглашаетесь с политикой конфиденциальности <nuxt-link to="/rights">Серика Аубакирова.</nuxt-link></p>
                 </div>
                        <div class="main-buttons">
                 <div class="zapisatsa" @click.prevent="send"  @click="$emit('someEvent')">
@@ -41,8 +41,7 @@
       this.$axios.$post('/mail/send',{
         from: 'ededededdd',
         subject: 'Contact form message',
-        html: `Имя:${this.$refs.name.value},<br>Фамилия:${this.$refs.surname.value}<br>Почта:${this.$refs.email.value}<br>Проблема: ${this.$refs.message.value}`,
-        to: this.email,
+        html: `Имя:${this.$refs.name.value},<br>Фамилия:${this.$refs.surname.value}<br>Почта:${this.$refs.email.value}<br>Проблема: ${this.$refs.message.value}`
       })
   },
             
@@ -88,19 +87,24 @@
         border-radius: 4px;
         outline: none;
     }
-    .description{
-        text-align: center;
-        font-size: 14px;
-        margin-bottom: 24px;
-    }
-    .description p a{
-        font-weight: 700;
-        font-size: 15px;
-    }
     .main-buttons{
         justify-content: center;
     }
-     .zapisatsa{
+    @media (max-width: 560px) {
+        .main-title p{
+            font-size: 22px;
+        }
+        
+        .main-buttons{
+            flex-wrap: wrap;
+        }
+        .block{
+            max-width: 300px;
+        }
+    }
+</style>
+<style>
+.zapisatsa{
         margin: 4px !important;
         align-self: center;
     }
@@ -117,16 +121,13 @@
         justify-content: center;
         align-items: center;
     }
-    @media (max-width: 560px) {
-        .main-title p{
-            font-size: 22px;
-        }
-        
-        .main-buttons{
-            flex-wrap: wrap;
-        }
-        .block{
-            max-width: 300px;
-        }
+    .description{
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+    .description p a{
+        font-weight: 700;
+        font-size: 15px;
     }
 </style>
