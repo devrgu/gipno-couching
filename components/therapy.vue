@@ -10,6 +10,16 @@
                </div>
            </div>
                <div class="tfs-content">
+                  <div class="tfs-block-2 tfs-block tfs-block-therapy">
+                     <div class="back_side">
+                       <div class="tfs-block-title">
+                           <p>Активизируете подсознательное исцеление</p>
+                       </div>
+                       <div class="tfs-block-text">
+                           <p>У вас включится подсознательный процесс исцеления и регенераций здоровья. Онкологические заболевания в большинстве случаев связанные с депрессией и негативными эмоциями, ГАРАНТИРОВАННО начнут лечиться!</p>
+                       </div>
+                     </div>
+                   </div>
                    <div class="tfs-block-1 tfs-block tfs-block-therapy">
                       <div class="front_side">
                        <div class="tfs-block-title">
@@ -28,27 +38,6 @@
                        </div>
                        <div class="tfs-block-text">
                            <p>В процессе лечения, найдем эмоциональные травмы или же инфовирус, который оброс корнем как паразит высасывая жизненную энергию. Эти "убеждения", привели бы вас к самоуничтожению. Мы вместе с вами остановим и вырвем с корнем их, улучшев ваше мировозрение.</p>
-                       </div>
-                     </div>
-                   </div>
-                   <div class="tfs-block-2 tfs-block tfs-block-therapy">
-                      <div class="front_side">
-                       <div class="tfs-block-title">
-                           <p>Активируется подсознательное исцеление</p>
-                       </div>
-                       <div class="tfs-block-icon">
-                           <img src="/mozg.svg">
-                       </div>
-                       <div class="tfs-block-text"> 
-                           <p>У вас включится подсознательный процесс исцеления и регенераций здоровья...</p>
-                       </div>
-                     </div>
-                     <div class="back_side">
-                       <div class="tfs-block-title">
-                           <p>Активизируете подсознательное исцеление</p>
-                       </div>
-                       <div class="tfs-block-text">
-                           <p>У вас включится подсознательный процесс исцеления и регенераций здоровья. Онкологические заболевания в большинстве случаев связанные с депрессией и негативными эмоциями, ГАРАНТИРОВАННО начнут лечиться!</p>
                        </div>
                      </div>
                    </div>
@@ -148,6 +137,9 @@
       transition: 1s; 
       backface-visibility: hidden;
       border-radius: 10px;      
+    }
+    .tfs-block-2 .back_side{
+        transform: rotateY(360deg);
     }
     .back_side {
         background-color: #326BFF;

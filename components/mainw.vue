@@ -94,7 +94,7 @@
         max-width: 680px;
     }
     .main-subtitle p{
-        color: #b5b5b5;
+        color: #d1d1d1;
         font-size: 18px;
         font-weight: 400;
         margin: 8px 0 32px;
