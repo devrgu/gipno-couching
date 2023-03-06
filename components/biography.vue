@@ -7,7 +7,7 @@
                  <div class="biography-text">
                   <div class="biography-title">
                      <p class="decorate-word">#Я тот кто вам нужен!</p>
-                      <p>Вы не потеряли надежду?<br> 
+                      <p>Вы боитесь потерять надежду?<br> 
                           Значит <span>выход есть!</span></p>
                   </div>
                    <div class="biography-line">
@@ -30,6 +30,7 @@
         display: flex;
         margin: 0 24px 0 24px;
         justify-content: center;
+        align-items: center;
     }
     .biography-line hr{
         width: 100px;
