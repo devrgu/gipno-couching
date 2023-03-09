@@ -115,16 +115,16 @@
     @media (max-width: 1024px) {
         .biography-img{
             max-width: 100%;
-            height: 250px;
-            margin: 0;
+            margin-left: 25px;
+            margin-right: 25px;
             align-items:flex-start;
             justify-content: center;
+            height: auto !important;
             
         }
         .biography-img img{
-            height: 850px;
+            height: 425px;
             position: relative;
-            bottom: 203px;
         }
         
         .biography-conspect{
