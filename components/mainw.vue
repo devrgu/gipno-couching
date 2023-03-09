@@ -6,7 +6,7 @@
       <div class="main-text-wrap">
        <div class="main-text">
           <div class="main-title title">
-              <p>Целительство до <span>онкологических<br> заболеваний</span> в подсознательном уровне</p>
+              <p>Терапия с подсознанием, которое заранее<br>может остановить<span> тяжелые болезни</span></p>
           </div>
           <div class="main-subtitle">
             <p>
